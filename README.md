@@ -39,3 +39,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 yarn
 husky install
 ```
+
+Or before
+
+```bash
+yarn add -D @next/eslint-plugin-next @types/node @types/react @typescript-eslint/eslint-plugin @typescript-eslint/parser autoprefixer eslint eslint-config-next eslint-config-prettier eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-prefer-arrow eslint-plugin-prettier husky postcss prettier tailwindcss typescript
+```
+
+```bash
+yarn add next react react-dom
+```
