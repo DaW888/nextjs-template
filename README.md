@@ -49,3 +49,16 @@ yarn add -D @next/eslint-plugin-next @types/node @types/react @typescript-eslint
 ```bash
 yarn add next react react-dom
 ```
+
+## WebStorm
+
+- Preferences | Languages & Frameworks | Node.js
+  - Setup `Node interpreter`
+  - Setup `Package manager`
+  - If you want turn on `Coding Assistance for Node.js`
+- Preferences | Languages & Frameworks | JavaScript | Code Quality Tools | ESLint
+  - Setup `Automatic ESLint configuration`, if something not work, specify path
+  - Check `Run Eslint --fix on save`
+- Preferences | Languages & Frameworks | JavaScript | Prettier
+  - Check `'On Reformat' Code Action`
+  - Check `On Save`
