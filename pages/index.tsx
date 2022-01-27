@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
-    <div className='text-slate-50 bg-slate-600 flex w-screen h-screen justify-center align-center'>
+    <div className='align-center flex h-screen w-screen justify-center bg-slate-600 text-slate-50'>
       <Head>
         <title>Hi</title>
         <meta name='description' content='Hello in the template' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='flex justify-center flex-col'>
+      <main className='flex flex-col justify-center'>
         <h1 className='text-center'>Hi</h1>
         <Image src='/vercel.svg' width={100} height={100} alt='vercel' />
       </main>
